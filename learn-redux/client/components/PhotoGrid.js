@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const PhotoGrid = React.createClass({
+class PhotoGrid extends React.Component{
     render() {
         return (
             <div className="photo-grid">
@@ -9,6 +9,6 @@ const PhotoGrid = React.createClass({
             </div>
         )
     }
-});
+};
 
 export default PhotoGrid;
